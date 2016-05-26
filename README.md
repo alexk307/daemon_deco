@@ -11,3 +11,5 @@ def daemon_test():
 ```
 
 Creates a logfile named `customlog.log`, redirects all output from `print` to your logfile, and runs it in it's separate process.
+
+You could always just run `nohup python <yourscript>.py &`, but, well, this is more fun.
